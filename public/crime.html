@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crime Genre</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<style>
+    /* Global CSS styles */
+.crime-page {
+    text-align: center;
+    padding: 50px;
+}
+
+.crime-image-container {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+
+.crime-image {
+    width: 200px;
+    height: 300px;
+    transition: transform 0.3s ease;
+}
+
+.image-text {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    transition: opacity 0.3s ease;
+}
+
+.crime-image-container:hover .image-text {
+    opacity: 1;
+}
+
+</style>
+<body>
+    <div class="crime-page">
+        <h2>Crime Genre</h2>
+        
+        <!-- Castle -->
+        <div class="crime-image-container">
+            <img src="./images/castle.jpg" alt="Castle" class="crime-image">
+            <p>Castle</p>
+            <p> Crime procedural with a novelist and detective</p>
+            <div class="image-text">Amazon Prime Video</div>
+        </div>
+        
+        <!-- The Rookie -->
+        <div class="crime-image-container">
+            <img src="./images/the-rookie.jpg" alt="The Rookie" class="crime-image">
+            <p>The Rookie</p>
+            <p> Rookie cop joins the LAPD</p>
+            <div class="image-text">Disney+ Hotstar</div>
+        </div>
+        
+        <!-- White Collar -->
+        <div class="crime-image-container">
+            <img src="./images/white-collar.jpg" alt="White Collar" class="crime-image">
+            <p>White Collar</p>
+            <p> FBI agent partners with a con artist</p>
+            <div class="image-text">Amazon Prime Video</div>
+        </div>
+        
+        <!-- Money Heist -->
+        <div class="crime-image-container">
+            <img src="./images/money-heist.jpg" alt="Money Heist" class="crime-image">
+            <p>Money Heist</p>
+            <p> Mastermind leads heist on the Royal Mint of Spain</p>
+            <div class="image-text">Netflix</div>
+        </div>
+        
+        <!-- Criminal -->
+        <div class="crime-image-container">
+            <img src="./images/criminal1.jpg" alt="Criminal" class="crime-image">
+            <p>Criminal</p>
+            <p> Police procedural set within interrogation rooms</p>
+            <div class="image-text">Netflix</div>
+        </div>
+    </div>
+</body>
+</html>

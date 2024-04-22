@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thriller Genre</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<style>
+    /* Global CSS styles */
+.thriller-page {
+    text-align: center;
+    padding: 50px;
+}
+
+.thriller-image-container {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+
+.thriller-image {
+    width: 200px;
+    height: 300px;
+    transition: transform 0.3s ease;
+}
+
+.image-text {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    transition: opacity 0.3s ease;
+}
+
+.thriller-image-container:hover .image-text {
+    opacity: 1;
+}
+
+</style>
+<body>
+    <div class="thriller-page">
+        <h2>Thriller Genre</h2>
+        
+        <!-- Jack Ryan -->
+        <div class="thriller-image-container">
+            <img src="./images/jack-ryan.jpg" alt="Jack Ryan" class="thriller-image">
+            <p>Jack Ryan</p>
+            <p> CIA analyst uncovers terrorist threats</p>
+            <div class="image-text">Amazon Prime Video</div>
+        </div>
+        
+        <!-- Hunters -->
+        <div class="thriller-image-container">
+            <img src="./images/hunters.jpg" alt="Hunters" class="thriller-image">
+            <p>Hunters</p>
+            <p> Nazi hunters in 1970s New York City</p>
+            <div class="image-text">Amazon Prime Video</div>
+        </div>
+        
+        <!-- Killing Eve -->
+        <div class="thriller-image-container">
+            <img src="./images/killing-eve.jpg" alt="Killing Eve" class="thriller-image">
+            <p>Killing Eve</p>
+            <p> MI5 agent and assassin become obsessed with each other</p>
+            <div class="image-text">Amazon Prime Video</div>
+        </div>
+        
+    </div>
+</body>
+</html>

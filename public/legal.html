@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Genre</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<style>
+    /* Global CSS styles */
+.legal-page {
+    text-align: center;
+    padding: 50px;
+}
+
+.legal-image-container {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+
+.legal-image {
+    width: 200px;
+    height: 300px;
+    transition: transform 0.3s ease;
+}
+
+.image-text {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    transition: opacity 0.3s ease;
+}
+
+.legal-image-container:hover .image-text {
+    opacity: 1;
+}
+
+</style>
+<body>
+    <div class="legal-page">
+        <h2>Legal Genre</h2>
+        
+        <!-- Suits -->
+        <div class="legal-image-container">
+            <img src="./images/suits.jpg" alt="Suits" class="legal-image">
+            <p>Suits</p>
+            <p> Legal drama following a talented college dropout</p>
+            <div class="image-text">Amazon Prime Video</div>
+        </div>
+        
+        <!-- The Good Wife -->
+        <div class="legal-image-container">
+            <img src="./images/the-good-wife.jpg" alt="The Good Wife" class="legal-image">
+            <p>The Good Wife</p>
+            <p> Wife of disgraced politician returns to work as a lawyer</p>
+            <div class="image-text">Amazon Prime Video</div>
+        </div>
+        
+        <!-- Boston Legal -->
+        <div class="legal-image-container">
+            <img src="./images/boston-legal.jpg" alt="Boston Legal" class="legal-image">
+            <p>Boston Legal</p>
+            <p> Eccentric attorneys at a Boston law firm</p>
+            <div class="image-text">Amazon Prime Video</div>
+        </div>
+        
+    </div>
+</body>
+</html>

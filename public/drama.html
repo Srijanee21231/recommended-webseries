@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drama Genre</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<style>
+    /* Global CSS styles */
+.drama-page {
+    text-align: center;
+    padding: 50px;
+}
+
+.drama-image-container {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+
+.drama-image {
+    width: 200px;
+    height: 300px;
+    transition: transform 0.3s ease;
+}
+
+.image-text {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    transition: opacity 0.3s ease;
+}
+
+.drama-image-container:hover .image-text {
+    opacity: 1;
+}
+
+</style>
+<body>
+    <div class="drama-page">
+        <h2>Drama Genre</h2>
+        
+        <!-- The Marvelous Mrs. Maisel -->
+        <div class="drama-image-container">
+            <img src="./images/the-marvelous-mrs-maisel.jpg" alt="The Marvelous Mrs. Maisel" class="drama-image">
+            <p>The Marvelous Mrs. Maisel</p>
+            <p> Housewife becomes a stand-up comedian</p>
+            <div class="image-text">Amazon Prime Video</div>
+        </div>
+        
+        <!-- Downton Abbey -->
+        <div class="drama-image-container">
+            <img src="./images/downton-abbey.jpg" alt="Downton Abbey" class="drama-image">
+            <p>Downton Abbey</p>
+            <p> Drama set in early 20th century English countryside</p>
+            <div class="image-text">Amazon Prime Video</div>
+        </div>
+        
+        <!-- The Good Doctor -->
+        <div class="drama-image-container">
+            <img src="./images/the-good-doctor.jpg" alt="The Good Doctor" class="drama-image">
+            <p>The Good Doctor</p>
+            <p> Surgeon with autism and savant syndrome</p>
+            <div class="image-text">Amazon Prime Video</div>
+        </div>
+        
+        <!-- The Newsroom -->
+        <div class="drama-image-container">
+            <img src="./images/the-newsroom.jpg" alt="The Newsroom" class="drama-image">
+            <p>The Newsroom</p>
+            <p> Behind-the-scenes drama at a cable news network</p>
+            <div class="image-text">Amazon Prime Video</div>
+        </div>
+        
+        <!-- Dynasty -->
+        <div class="drama-image-container">
+            <img src="./images/dynasty1.jpg" alt="Dynasty" class="drama-image">
+            <p>Dynasty</p>
+            <p> Reboot of the classic 1980s soap opera</p>
+            <div class="image-text">Netflix</div>
+        </div>
+        
+        <!-- Reign -->
+        <div class="drama-image-container">
+            <img src="./images/reign.jpg" alt="Reign" class="drama-image">
+            <p>Reign</p>
+            <p> Drama about Mary, Queen of Scots</p>
+            <div class="image-text">Netflix</div>
+        </div>
+        
+        <!-- Fleabag -->
+        <div class="drama-image-container">
+            <img src="./images/fleabag.jpg" alt="Fleabag" class="drama-image">
+            <p>Fleabag</p>
+            <p> A young woman's chaotic life in London</p>
+            <div class="image-text">Amazon Prime Video</div>
+        </div>
+        
+        <!-- The Queen's Gambit -->
+        <div class="drama-image-container">
+            <img src="./images/the-queens-gambit.jpg" alt="The Queen's Gambit" class="drama-image">
+            <p>The Queen's Gambit</p>
+            <p> Orphaned chess prodigy's rise to fame</p>
+            <div class="image-text">Netflix</div>
+        </div>
+        
+    </div>
+</body>
+</html>

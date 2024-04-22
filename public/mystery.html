@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mystery Genre</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<style>
+    /* Global CSS styles */
+.mystery-page {
+    text-align: center;
+    padding: 50px;
+}
+
+.mystery-image-container {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+
+.mystery-image {
+    width: 200px;
+    height: 300px;
+    transition: transform 0.3s ease;
+}
+
+.image-text {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    transition: opacity 0.3s ease;
+}
+
+.mystery-image-container:hover .image-text {
+    opacity: 1;
+}
+
+</style>
+<body>
+    <div class="mystery-page">
+        <h2>Mystery Genre</h2>
+        
+        <!-- And Then There Were None -->
+        <div class="mystery-image-container">
+            <img src="./images/and-then-there-were-none.jpg" alt="And Then There Were None" class="mystery-image">
+            <p>And Then There Were None</p>
+            <p> Ten strangers invited to an isolated island</p>
+            <div class="image-text">Amazon Prime Video</div>
+        </div>
+        
+        <!-- How to Get Away with Murder -->
+        <div class="mystery-image-container">
+            <img src="./images/how-to-get-away-with-murder.jpg" alt="How to Get Away with Murder" class="mystery-image">
+            <p>How to Get Away with Murder</p>
+            <p> Law professor and her students involved in a murder plot</p>
+            <div class="image-text">Disney+ Hotstar</div>
+        </div>
+        
+        <!-- The Mentalist -->
+        <div class="mystery-image-container">
+            <img src="./images/the-mentalist.jpg" alt="The Mentalist" class="mystery-image">
+            <p>The Mentalist</p>
+            <p> Former psychic helps California Bureau of Investigation solve crimes</p>
+            <div class="image-text">Amazon Prime Video</div>
+        </div>
+        
+        <!-- Sherlock -->
+        <div class="mystery-image-container">
+            <img src="./images/sherlock.jpg" alt="Sherlock" class="mystery-image">
+            <p>Sherlock</p>
+            <p> Modern adaptation of Sherlock Holmes stories</p>
+            <div class="image-text">Netflix</div>
+        </div>
+        
+        <!-- Only Murders in the Building -->
+        <div class="mystery-image-container">
+            <img src="./images/only-murders-in-the-building.jpg" alt="Only Murders in the Building" class="mystery-image">
+            <p>Only Murders in the Building</p>
+            <p> Three strangers investigate a murder in their apartment building</p>
+            <div class="image-text">Disney+ Hotstar</div>
+        </div>
+        
+        <!-- Pretty Little Liars -->
+        <div class="mystery-image-container">
+            <img src="./images/pretty-little-liars.jpg" alt="Pretty Little Liars" class="mystery-image">
+            <p>Pretty Little Liars</p>
+            <p> Teenagers receive anonymous messages from someone named "A"</p>
+            <div class="image-text">Amazon Prime Video</div>
+        </div>
+        
+        <!-- Riverdale -->
+        <div class="mystery-image-container">
+            <img src="./images/riverdale.jpg" alt="Riverdale" class="mystery-image">
+            <p>Riverdale</p>
+            <p> Teenagers investigate the mysterious events of their small town</p>
+            <div class="image-text">Netflix</div>
+        </div>
+        
+    </div>
+</body>
+</html>

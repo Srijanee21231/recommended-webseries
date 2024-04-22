@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
+  <title>WEBERIES RECOMMENDATION</title>
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<script>
+    function openGenrePage(genre) {
+        // Add transition effect (optional)
+        document.body.style.transition = 'background-color 0.5s ease';
+        document.body.style.backgroundColor = '#000'; // Change background color if needed
+        setTimeout(function() {
+            window.location.href ='./public/' + genre + '.html'; // Redirect to genre page
+        }, 500); // Adjust delay as needed for transition effect
+    }
+</script>
+
+
+
+<body>
+  
+    <b>
+      <a href="index.php">
+        <H1><center>Srijanee's Webseries Recommendations</center></H1>
+      </a>
+    </b>
+    <div class="rect-container">
+    <a href="#" class="rect action" onclick="openGenrePage('action')">Action</a>
+    <a href="#" class="rect comedy" onclick="openGenrePage('comedy')">Comedy</a>
+    <a href="#" class="rect crime" onclick="openGenrePage('crime')">Crime</a>
+    <a href="#" class="rect dark-comedy" onclick="openGenrePage('dark_comedy')">Dark Comedy</a>
+    <a href="#" class="rect drama" onclick="openGenrePage('drama')">Drama</a>
+    <a href="#" class="rect fantasy" onclick="openGenrePage('fantasy')">Fantasy</a>
+    <a href="#" class="rect legal" onclick="openGenrePage('legal')">Legal</a>
+    <a href="#" class="rect mystery" onclick="openGenrePage('mystery')">Mystery</a>
+    <a href="#" class="rect thriller" onclick="openGenrePage('thriller')">Thriller</a>
+
+
+
+    </div>
+    <footer>
+        <div class="footer-container">
+            <button>About Me</button>
+            <button>Contact</button>
+        </div>
+    </footer>
+    
+  
+</body>
+</html>
+
+

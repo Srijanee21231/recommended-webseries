@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Comedy Genre</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<style>
+    /* Global CSS styles */
+.dark-comedy-page {
+    text-align: center;
+    padding: 50px;
+}
+
+.dark-comedy-image-container {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+
+.dark-comedy-image {
+    width: 200px;
+    height: 300px;
+    transition: transform 0.3s ease;
+}
+
+.image-text {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    transition: opacity 0.3s ease;
+}
+
+.dark-comedy-image-container:hover .image-text {
+    opacity: 1;
+}
+
+</style>
+<body>
+    <div class="dark-comedy-page">
+        <h2>Dark Comedy Genre</h2>
+        
+        <!-- A Series of Unfortunate Events -->
+        <div class="dark-comedy-image-container">
+            <img src="./images/a-series-of-unfortunate-events.jpg" alt="A Series of Unfortunate Events" class="dark-comedy-image">
+            <p>A Series of Unfortunate Events</p>
+            <p> Orphaned siblings encounter misfortune at every turn</p>
+            <div class="image-text">Netflix</div>
+        </div>
+        
+        <!-- The End of the F***ing World -->
+        <div class="dark-comedy-image-container">
+            <img src="./images/the-end-of-the-f-ing-world.jpg" alt="The End of the F***ing World" class="dark-comedy-image">
+            <p>The End of the F***ing World</p>
+            <p> Teen runaways on a dark journey</p>
+            <div class="image-text">Netflix</div>
+        </div>
+        
+    </div>
+</body>
+</html>

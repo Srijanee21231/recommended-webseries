@@ -1,0 +1,109 @@
+a {
+    color: #0443ae;
+    text-decoration: none;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-family:Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url('bg1.jpg'); /* URL of your GIF file */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  
+    
+  }
+  
+  h1{
+    text-align: center;
+    font-family: 'Charm', cursive;
+    font-size: 3em;
+    color:#ffffff;
+  }
+
+  
+  .rect-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.rect {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 400px;
+    height: 80px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    
+}
+
+
+.rect:hover {
+    transform: scale(1.1);
+    background-color: rgba(197, 9, 0, 0.7);
+    color: #030303;
+}
+
+
+
+  p{
+    font-family:Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-justify: inter-word;
+    font-size: 20px;
+    text-align: justify;
+    padding-right: 250px;
+    
+    padding-left:250px;
+  }
+  
+  b{
+    color: #626060;
+  }
+  
+  
+
+  footer {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(249, 92, 41, 0.7);
+    color: #030303;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ccc;
+}
+
+
